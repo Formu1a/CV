@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Kirill PortFolio Website</title>
+        <script
+            src="https://kit.fontawesome.com/1935d064dd.js"
+            crossorigin="anonymous"
+        ></script>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="media-query.css" />
+    </head>
+    <body>
+        <div class="all">
+            <header>
+                <div class="container">
+                    <nav id="nav-ul">
+                        <ul class="nav-ul">
+                            <li class="nav-li active">
+                                <i class="fas fa-user"></i>
+                                <a
+                                    href="#about"
+                                    class="link"
+                                    data-filter="content-about"
+                                    >About</a
+                                >
+                            </li>
+                            <li class="nav-li">
+                                <i class="fas fa-poll-h"></i>
+                                <a
+                                    href="#resume"
+                                    class="link"
+                                    data-filter="content-resume"
+                                    >Resume</a
+                                >
+                            </li>
+                            <li class="nav-li">
+                                <i class="fas fa-pencil-alt"></i>
+                                <a
+                                    href="#portfolio"
+                                    class="link"
+                                    data-filter="content-portfolio"
+                                    >PortFolio</a
+                                >
+                            </li>
+                            <li class="nav-li">
+                                <i class="fab fa-stack-exchange"></i>
+                                <a
+                                    href="#blog"
+                                    class="link"
+                                    data-filter="content-blog"
+                                    >Blog</a
+                                >
+                            </li>
+                            <li class="nav-li">
+                                <i class="fas fa-envelope"></i>
+                                <a
+                                    href="#contact"
+                                    class="link"
+                                    data-filter="content-contact"
+                                    >Contact</a
+                                >
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+
+            <!-- CONTENT SECTION -->
+            <section>
+                <div class="container main-container">
+                    <!-- PROFILE SECTION -->
+                    <div class="profile">
+                        <div class="profile-image">
+                            <img src="images/kirill.jpg" alt="man" />
+                        </div>
+                        <div class="profile-content">
+                            <h2>Kirill Borisevich</h2>
+                            <p class="text-effect">Front-end Developer</p>
+                            <div class="profile-icons">
+                                <a href="https://github.com/Formu1a">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://www.facebook.com/F0rmu1a">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a
+                                    href="https://www.linkedin.com/in/kirill-borisevich/"
+                                >
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </div>
+                            <div class="profile-cta my-border">
+                                <div>
+                                    <a href="https://github.com/Formu1a"
+                                        >GitHub</a
+                                    >
+                                </div>
+                                <div>
+                                    <a
+                                        href="https://www.linkedin.com/in/kirill-borisevich/"
+                                        >Contact Me</a
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- MAIN CONTENT SECTION -->
+                    <div class="content-all">
+                        <!-- CONTENT ABOUT -->
+                        <div class="content content-about" id="about">
+                            <div class="content-header">
+                                <h2><span>About</span> Me</h2>
+                            </div>
+                            <div class="content-details">
+                                <img src="images/kirill2.jpg" alt="profile" />
+                                <p>
+                                    <span class="text">Hello! I'm</span
+                                    ><span class="name">
+                                        Kirill Borisevich</span
+                                    >
+                                </p>
+                                <p>
+                                    Hey ! I am a Front-end developer from Minsk.
+                                    I started my programming career in 11th
+                                    grade. I have freelance development
+                                    experience. I also have experience in
+                                    developing an Open Source project. I love
+                                    learning new technologies... Especially
+                                    everything related to web programming and
+                                    phone application development.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- CONTENT RESUME -->
+                        <div class="content content-resume" id="resume">
+                            <div class="content-header">
+                                <h2><span>My</span> Resume</h2>
+                            </div>
+                            <div class="content-details">
+                                <div class="resume">
+                                    <div class="my-resume education">
+                                        <div class="title">
+                                            <h3>Education</h3>
+                                        </div>
+                                        <div class="details">
+                                            <div class="specific-details">
+                                                <p class="year">2020 - 2024</p>
+                                                <div class="year-details">
+                                                    <p class="year-title">
+                                                        BNTU
+                                                    </p>
+                                                    <p class="year-desc">
+                                                        Industrial and civil
+                                                        construction <br />
+                                                        Civil Engineer
+                                                        English A2-B1
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="my-resume experience">
+                                        <div class="title">
+                                            <h3>Experience</h3>
+                                        </div>
+                                        <div class="details">
+                                            <div class="specific-details">
+                                                <p class="year">
+                                                    2022 - present time
+                                                </p>
+                                                <div class="year-details">
+                                                    <p class="year-title">
+                                                        Front-end Developer
+                                                    </p>
+                                                    <p class="year-desc">
+                                                        Open Source project
+                                                        (Huawei) Position:
+                                                        Junior Full-Stack
+                                                        Developer (Kotlin.js)
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ADD A LINE -->
+                                <div class="content-line"></div>
+                                <!-- MY SKILLS -->
+                                <div class="my-skills">
+                                    <div class="title">
+                                        <h3>My Skills</h3>
+                                    </div>
+                                    <div class="skills">
+                                        <div class="skill">
+                                            <img src="images/html.png" alt="" />
+                                            <p>HTML</p>
+                                        </div>
+                                        <div class="skill">
+                                            <img
+                                                src="images/css logo.png"
+                                                alt=""
+                                            />
+                                            <p>CSS</p>
+                                        </div>
+                                        <div class="skill">
+                                            <img src="images/js.jpg" alt="" />
+                                            <p>JavaScript</p>
+                                        </div>
+                                        <div class="skill">
+                                            <img
+                                                src="images/react.png"
+                                                alt=""
+                                            />
+                                            <p>React</p>
+                                        </div>
+                                        <div class="skill">
+                                            <img
+                                                src="images/nodejs.png"
+                                                alt=""
+                                            />
+                                            <p>NodeJS</p>
+                                        </div>
+                                        <div class="skill">
+                                            <img src="images/git.png" alt="" />
+                                            <p>GitHub</p>
+                                        </div>
+                                        <div class="skill">
+                                            <img src="images/php.png" alt="" />
+                                            <p>PHP</p>
+                                        </div>
+                                        
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- CONTENT PORTFOLIO -->
+                        <div class="content content-portfolio" id="portfolio">
+                            <div class="content-header">
+                                <h2><span>My</span> PortFolio</h2>
+                            </div>
+                            <div class="content-details">
+                                <div class="portfolio">
+                                    <div class="portfolio-item">
+                                        <img
+                                            src="images/portfolio.png"
+                                            alt=""
+                                        />
+                                        <p class="portfolio-title">
+                                            Social Network
+                                        </p>
+                                        <p class="portfolio-desc">
+                                            In this project, I used technologies such as React & Redux and various libraries
+                                        </p>
+                                        <a href="https://github.com/Formu1a/SocialNetwork-React">&rarr; View Project</a>
+                                    </div>
+                                    <div class="portfolio-item">
+                                        <img
+                                            src="images/portfolio1.png"
+                                            alt=""
+                                        />
+                                        <p class="portfolio-title">
+                                            
+                                            Note Taking App
+                                        </p>
+                                        <p class="portfolio-desc">
+                                            My first React Native app ^-^
+                                        </p>
+                                        <a href="https://github.com/Formu1a/NoteTakingApp-ReactNative">&rarr; View Project</a>
+                                    </div>
+                                    <div class="portfolio-item">
+                                        <img
+                                            src="images/portfolio2.png"
+                                            alt=""
+                                        />
+                                        <p class="portfolio-title">
+                                            Registration and authorization in PHP
+                                        </p>
+                                        <p class="portfolio-desc">
+                                            
+                                            Registration and authorization using SQL and validation
+                                        </p>
+                                        <a href="https://github.com/Formu1a/RegAndAuth-PHP">&rarr; View Project</a>
+                                    </div>
+                                    <div class="portfolio-item">
+                                        <img
+                                            src="images/ski.png"
+                                            alt=""
+                                        />
+                                        <p class="portfolio-title">
+                                            
+                                            Skier Game
+                                        </p>
+                                        <p class="portfolio-desc">
+                                            My graduation project at IT Academy.
+                                                In it I used JQuery.
+                                                Average score 10
+                                        </p>
+                                        <a href="https://formu1a.github.io/SkierGame-JavaScript/#%7B%22pagename%22%3A%22Game%22%7D">&rarr; View Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- CONTENT BLOG -->
+                        <div class="content content-blog" id="blog">
+                            <div class="content-header">
+                                <h2><span>My</span> Blog</h2>
+                            </div>
+                            <div class="content-details">
+                                <div class="blog">
+                                    <div class="blog-post">
+                                        <img src="images/blog.png" alt="" />
+                                        <p class="post-title">
+                                            Hello
+                                        </p>
+                                        <p class="post-desc">
+                                            I don't blog at the moment, but you can follow me on Linkedin
+                                        </p>
+                                        <a href="https://www.linkedin.com/in/kirill-borisevich/">&rarr; Read Post</a>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- CONTENT CONTACT -->
+                        <div class="content content-contact" id="contact">
+                            <div class="content-header">
+                                <h2><span>Contact</span> Me</h2>
+                            </div>
+                            <div class="content-details">
+                                <div class="contact">
+                                    <div class="contact-details">
+                                        <p class="title">Address</p>
+                                        <p>Minsk, BLR</p>
+                                        <img
+                                            src="images/white-line.PNG"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="contact-details">
+                                        <p class="title">Email</p>
+                                        <p>Toz1fq@bk.ru</p>
+                                    </div>
+                                    <div class="contact-details">
+                                        <p class="title">Phone</p>
+                                        <p>+375 (29) 191-25-82</p>
+                                    </div>
+                                    <div class="contact-details">
+                                        <p class="title">LinkedIn</p>
+                                        <p><a href="https://www.linkedin.com/in/kirill-borisevich/"> Click :)</a></p>
+                                    </div>
+                                </div>
+                                <div class="content-line"></div>
+                                <!-- CONTACT FORM -->
+                               
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
